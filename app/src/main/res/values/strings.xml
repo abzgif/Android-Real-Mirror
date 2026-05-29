@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Real Mirror</string>
+    <string name="mirror_mode">Mirror</string>
+    <string name="real_mode">Real</string>
+    <string name="permission_required">Permissions Required</string>
+    <string name="permission_message">Camera, Microphone, and Storage permissions are required to use Real Mirror.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="recording">Recording</string>
+    <string name="photo_saved">Photo saved to gallery</string>
+    <string name="video_saved">Video saved to gallery</string>
+    <string name="capture_error">Capture failed. Please try again.</string>
+    <string name="brightness">Brightness</string>
+</resources>

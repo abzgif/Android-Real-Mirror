@@ -1,0 +1,246 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.realmirror.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Camera & Microphone -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:7:5-71
+13-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:7:22-68
+14
+15    <!-- Storage -->
+16    <uses-permission
+16-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:10:5-12:38
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:11:9-64
+18        android:maxSdkVersion="32" />
+18-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:12:9-35
+19    <uses-permission
+19-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:13:5-15:38
+20        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+20-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:14:9-65
+21        android:maxSdkVersion="28" />
+21-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:15:9-35
+22    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+22-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:16:5-76
+22-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+23-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:17:5-75
+23-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:17:22-72
+24
+25    <!-- Screen brightness (window-level, no WRITE_SETTINGS needed) -->
+26    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+26-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:20:5-21:47
+26-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:20:22-70
+27
+28    <!-- Hardware features -->
+29    <uses-feature
+29-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:24:5-26:35
+30        android:name="android.hardware.camera"
+30-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:25:9-47
+31        android:required="true" />
+31-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:26:9-32
+32    <uses-feature
+32-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:27:5-29:36
+33        android:name="android.hardware.camera.front"
+33-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:28:9-53
+34        android:required="false" />
+34-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:29:9-33
+35    <uses-feature
+35-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:30:5-32:36
+36        android:name="android.hardware.microphone"
+36-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:31:9-51
+37        android:required="false" />
+37-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:32:9-33
+38
+39    <queries>
+39-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:22:5-26:15
+40        <intent>
+40-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:23:9-25:18
+41            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+41-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:24:13-86
+41-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:24:21-83
+42        </intent>
+43    </queries>
+44
+45    <permission
+45-->[androidx.core:core:1.13.1] /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+46        android:name="com.realmirror.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.13.1] /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.13.1] /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+48
+49    <uses-permission android:name="com.realmirror.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+49-->[androidx.core:core:1.13.1] /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+49-->[androidx.core:core:1.13.1] /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+50
+51    <application
+51-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:34:5-65:19
+52        android:allowBackup="true"
+52-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:35:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.13.1] /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+54        android:debuggable="true"
+55        android:extractNativeLibs="false"
+56        android:icon="@mipmap/ic_launcher"
+56-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:36:9-43
+57        android:label="@string/app_name"
+57-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:38:9-41
+58        android:roundIcon="@mipmap/ic_launcher_round"
+58-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:37:9-54
+59        android:supportsRtl="true"
+59-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:39:9-35
+60        android:theme="@style/Theme.RealMirror" >
+60-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:40:9-48
+61        <activity
+61-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:43:9-52:20
+62            android:name="com.realmirror.app.MainActivity"
+62-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:44:13-41
+63            android:exported="true"
+63-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:45:13-36
+64            android:screenOrientation="portrait"
+64-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:46:13-49
+65            android:windowSoftInputMode="adjustNothing" >
+65-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:47:13-56
+66            <intent-filter>
+66-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:48:13-51:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:49:17-69
+67-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:49:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:50:17-77
+69-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:50:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <!-- FileProvider for sharing captured media -->
+74        <provider
+75            android:name="androidx.core.content.FileProvider"
+75-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:56:13-62
+76            android:authorities="com.realmirror.app.fileprovider"
+76-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:57:13-64
+77            android:exported="false"
+77-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:58:13-37
+78            android:grantUriPermissions="true" >
+78-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:59:13-47
+79            <meta-data
+79-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:60:13-62:54
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:61:17-67
+81                android:resource="@xml/file_paths" />
+81-->/home/abuzar/Documents/Real Mirror/app/src/main/AndroidManifest.xml:62:17-51
+82        </provider>
+83
+84        <uses-library
+84-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:29:9-31:40
+85            android:name="androidx.camera.extensions.impl"
+85-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:30:13-59
+86            android:required="false" />
+86-->[androidx.camera:camera-extensions:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/cec0150cdb4c3b1aaea6c5cec16ca756/transformed/camera-extensions-1.3.4/AndroidManifest.xml:31:13-37
+87
+88        <service
+88-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:24:9-33:19
+89            android:name="androidx.camera.core.impl.MetadataHolderService"
+89-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:25:13-75
+90            android:enabled="false"
+90-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:26:13-36
+91            android:exported="false" >
+91-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:30:13-32:89
+93                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+93-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:31:17-103
+94                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+94-->[androidx.camera:camera-camera2:1.3.4] /home/abuzar/.gradle/caches/9.0.0/transforms/359526eee736b712ff405f5e9844d8d6/transformed/camera-camera2-1.3.4/AndroidManifest.xml:32:17-86
+95        </service>
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+99            android:authorities="com.realmirror.app.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.3.0] /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/abuzar/.gradle/caches/9.0.0/transforms/bcf258a68131e28117faff64569bc997/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/abuzar/.gradle/caches/9.0.0/transforms/bcf258a68131e28117faff64569bc997/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/abuzar/.gradle/caches/9.0.0/transforms/bcf258a68131e28117faff64569bc997/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+110        </provider>
+111
+112        <activity
+112-->[androidx.compose.ui:ui-test-manifest:1.7.3] /home/abuzar/.gradle/caches/9.0.0/transforms/960e476b58a5916391316adc806f58e3/transformed/ui-test-manifest-1.7.3/AndroidManifest.xml:23:9-25:39
+113            android:name="androidx.activity.ComponentActivity"
+113-->[androidx.compose.ui:ui-test-manifest:1.7.3] /home/abuzar/.gradle/caches/9.0.0/transforms/960e476b58a5916391316adc806f58e3/transformed/ui-test-manifest-1.7.3/AndroidManifest.xml:24:13-63
+114            android:exported="true" />
+114-->[androidx.compose.ui:ui-test-manifest:1.7.3] /home/abuzar/.gradle/caches/9.0.0/transforms/960e476b58a5916391316adc806f58e3/transformed/ui-test-manifest-1.7.3/AndroidManifest.xml:25:13-36
+115        <activity
+115-->[androidx.compose.ui:ui-tooling-android:1.7.3] /home/abuzar/.gradle/caches/9.0.0/transforms/2ebfc31a441cc85c67438b0c7bbc173b/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+116            android:name="androidx.compose.ui.tooling.PreviewActivity"
+116-->[androidx.compose.ui:ui-tooling-android:1.7.3] /home/abuzar/.gradle/caches/9.0.0/transforms/2ebfc31a441cc85c67438b0c7bbc173b/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+117            android:exported="true" />
+117-->[androidx.compose.ui:ui-tooling-android:1.7.3] /home/abuzar/.gradle/caches/9.0.0/transforms/2ebfc31a441cc85c67438b0c7bbc173b/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+118
+119        <receiver
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+120            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+121            android:directBootAware="false"
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+122            android:enabled="true"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+123            android:exported="true"
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+124            android:permission="android.permission.DUMP" >
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+126                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+129                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+132                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+135                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+136            </intent-filter>
+137        </receiver>
+138    </application>
+139
+140</manifest>

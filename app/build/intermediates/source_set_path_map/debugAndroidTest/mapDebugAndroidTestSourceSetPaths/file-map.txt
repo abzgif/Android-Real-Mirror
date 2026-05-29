@@ -1,0 +1,37 @@
+com.realmirror.app.test.app-lifecycle-viewmodel-savedstate-2.8.6-0 /home/abuzar/.gradle/caches/9.0.0/transforms/01fe4b424a10f88428123273eb13c79d/transformed/lifecycle-viewmodel-savedstate-2.8.6/res
+com.realmirror.app.test.app-lifecycle-runtime-ktx-release-1 /home/abuzar/.gradle/caches/9.0.0/transforms/0744131d90632d38caf3f09240e177d5/transformed/lifecycle-runtime-ktx-release/res
+com.realmirror.app.test.app-runtime-release-2 /home/abuzar/.gradle/caches/9.0.0/transforms/0da13111afeb711570d7f129fca55299/transformed/runtime-release/res
+com.realmirror.app.test.app-ui-unit-release-3 /home/abuzar/.gradle/caches/9.0.0/transforms/0db077e0bab9758b796f3eacf3e10b4f/transformed/ui-unit-release/res
+com.realmirror.app.test.app-ui-test-junit4-release-4 /home/abuzar/.gradle/caches/9.0.0/transforms/11a5ab16e020ffbc0de625557cef8701/transformed/ui-test-junit4-release/res
+com.realmirror.app.test.app-lifecycle-viewmodel-ktx-2.8.6-5 /home/abuzar/.gradle/caches/9.0.0/transforms/12f3c0232f3f57a9346a260af235f147/transformed/lifecycle-viewmodel-ktx-2.8.6/res
+com.realmirror.app.test.app-ui-geometry-release-6 /home/abuzar/.gradle/caches/9.0.0/transforms/154c422bea82fb629ba29401353d430a/transformed/ui-geometry-release/res
+com.realmirror.app.test.app-lifecycle-runtime-release-7 /home/abuzar/.gradle/caches/9.0.0/transforms/34dd74b4a6fb97630f1edef77f6f6704/transformed/lifecycle-runtime-release/res
+com.realmirror.app.test.app-core-ktx-1.13.1-8 /home/abuzar/.gradle/caches/9.0.0/transforms/3d0d7d4b2b03af60d7f6b97f4353297c/transformed/core-ktx-1.13.1/res
+com.realmirror.app.test.app-ui-release-9 /home/abuzar/.gradle/caches/9.0.0/transforms/41ad980747988cc43b32843ef664b271/transformed/ui-release/res
+com.realmirror.app.test.app-savedstate-1.2.1-10 /home/abuzar/.gradle/caches/9.0.0/transforms/4fdff81bbd05e738564b91b8ceeac6cd/transformed/savedstate-1.2.1/res
+com.realmirror.app.test.app-ui-test-release-11 /home/abuzar/.gradle/caches/9.0.0/transforms/556c3c8dcb0abed2e659b45158cf5f3e/transformed/ui-test-release/res
+com.realmirror.app.test.app-savedstate-ktx-1.2.1-12 /home/abuzar/.gradle/caches/9.0.0/transforms/6107509cb211caf44c80fa93d65e396a/transformed/savedstate-ktx-1.2.1/res
+com.realmirror.app.test.app-activity-compose-1.9.2-13 /home/abuzar/.gradle/caches/9.0.0/transforms/6392b04c6ef49395047a6029b4f0820a/transformed/activity-compose-1.9.2/res
+com.realmirror.app.test.app-startup-runtime-1.1.1-14 /home/abuzar/.gradle/caches/9.0.0/transforms/6b7c4fcc42437df7a45e670f3ba42226/transformed/startup-runtime-1.1.1/res
+com.realmirror.app.test.app-activity-ktx-1.9.2-15 /home/abuzar/.gradle/caches/9.0.0/transforms/6d1868708de7dce744a9ac16f8e7104d/transformed/activity-ktx-1.9.2/res
+com.realmirror.app.test.app-lifecycle-viewmodel-release-16 /home/abuzar/.gradle/caches/9.0.0/transforms/84076b375dfaaec17e39d577bd76c2f2/transformed/lifecycle-viewmodel-release/res
+com.realmirror.app.test.app-lifecycle-livedata-core-2.8.6-17 /home/abuzar/.gradle/caches/9.0.0/transforms/87eeaceef5e26f324248db87abee1738/transformed/lifecycle-livedata-core-2.8.6/res
+com.realmirror.app.test.app-annotation-experimental-1.4.1-18 /home/abuzar/.gradle/caches/9.0.0/transforms/8aa10adb921491e2413dff796c30d85a/transformed/annotation-experimental-1.4.1/res
+com.realmirror.app.test.app-runtime-saveable-release-19 /home/abuzar/.gradle/caches/9.0.0/transforms/8b4033889e463e913b81ce12821a2353/transformed/runtime-saveable-release/res
+com.realmirror.app.test.app-graphics-path-1.0.1-20 /home/abuzar/.gradle/caches/9.0.0/transforms/8e131c1a0813228d11b27404920110ea/transformed/graphics-path-1.0.1/res
+com.realmirror.app.test.app-ui-graphics-release-21 /home/abuzar/.gradle/caches/9.0.0/transforms/970352610a130f935a201faad1499e29/transformed/ui-graphics-release/res
+com.realmirror.app.test.app-core-1.6.1-22 /home/abuzar/.gradle/caches/9.0.0/transforms/ac33b3e68208247be5a32096d030d1d3/transformed/core-1.6.1/res
+com.realmirror.app.test.app-lifecycle-process-2.8.6-23 /home/abuzar/.gradle/caches/9.0.0/transforms/bcf258a68131e28117faff64569bc997/transformed/lifecycle-process-2.8.6/res
+com.realmirror.app.test.app-ui-text-release-24 /home/abuzar/.gradle/caches/9.0.0/transforms/c1d134027b68a9427f3749e311a85254/transformed/ui-text-release/res
+com.realmirror.app.test.app-core-runtime-2.2.0-25 /home/abuzar/.gradle/caches/9.0.0/transforms/cfedf4b5f75313442d6b37ceedb339cb/transformed/core-runtime-2.2.0/res
+com.realmirror.app.test.app-ui-util-release-26 /home/abuzar/.gradle/caches/9.0.0/transforms/dc053690e0df22a87a6427d66533398e/transformed/ui-util-release/res
+com.realmirror.app.test.app-lifecycle-runtime-compose-release-27 /home/abuzar/.gradle/caches/9.0.0/transforms/e53da7a1d2d27fc0ab65d15fd3db9b5d/transformed/lifecycle-runtime-compose-release/res
+com.realmirror.app.test.app-profileinstaller-1.3.1-28 /home/abuzar/.gradle/caches/9.0.0/transforms/e70802d493c8a5fe6301de715fceca49/transformed/profileinstaller-1.3.1/res
+com.realmirror.app.test.app-core-1.13.1-29 /home/abuzar/.gradle/caches/9.0.0/transforms/eeeffd939182eb196618c9bf802006dd/transformed/core-1.13.1/res
+com.realmirror.app.test.app-emoji2-1.3.0-30 /home/abuzar/.gradle/caches/9.0.0/transforms/f4a873a9037529792bcdc6d3a2a8f9a5/transformed/emoji2-1.3.0/res
+com.realmirror.app.test.app-activity-1.9.2-31 /home/abuzar/.gradle/caches/9.0.0/transforms/f95a7578e08cff88266877b9177e4383/transformed/activity-1.9.2/res
+com.realmirror.app.test.app-customview-poolingcontainer-1.0.0-32 /home/abuzar/.gradle/caches/9.0.0/transforms/faa508ac5a6cd1e5c0875b7c648068ed/transformed/customview-poolingcontainer-1.0.0/res
+com.realmirror.app.test.app-androidTest-33 /home/abuzar/Documents/Real Mirror/app/build/generated/res/resValues/androidTest/debug
+com.realmirror.app.test.app-mergeDebugAndroidTestResources-34 /home/abuzar/Documents/Real Mirror/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.realmirror.app.test.app-mergeDebugAndroidTestResources-35 /home/abuzar/Documents/Real Mirror/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.realmirror.app.test.app-debugAndroidTest-36 /home/abuzar/Documents/Real Mirror/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
