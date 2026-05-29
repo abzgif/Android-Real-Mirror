@@ -1,11 +1,23 @@
+# Gradle and build outputs
+.gradle/
+build/
+app/build/
+
+# Kotlin / IDE
+.kotlin/
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.ipr
+*.iws
+.navigation/
+captures/
+
+# Local configuration
 local.properties
-.kotlin
+
+# Keystores & files
+*.jks
+*.keystore
+
+# System files
+.DS_Store
