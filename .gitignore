@@ -2,6 +2,7 @@
 .gradle/
 build/
 app/build/
+app/release/
 
 # Kotlin / IDE
 .kotlin/
@@ -19,5 +20,19 @@ local.properties
 *.jks
 *.keystore
 
+# Signed APKs and Bundles
+*.apk
+*.aab
+
+# Native build outputs
+.cxx/
+
+# Heap dumps
+*.hprof
+
+# Log files
+*.log
+
 # System files
 .DS_Store
+Thumbs.db
